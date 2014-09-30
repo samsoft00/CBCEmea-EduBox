@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CBCEduBox.iml" filepath="$PROJECT_DIR$/CBCEduBox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edubox/edubox.iml" filepath="$PROJECT_DIR$/edubox/edubox.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CBC Edu Box</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_request">Request for App</string>
+    <string name="action_about">About CBC Emea</string>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+
+    <string-array name="website">
+        <item>http://www.crafts4kids.com</item>
+        <item>http://www.mykidsadventures.com</item>
+        <item>http://www.mindset.co.za/learn</item>
+        <item>http://www.activityvillage.co.uk</item>
+        <item>http://www.skooolnigeria.com</item>
+        <item>http://www.cbcemea.com</item>
+    </string-array>
+
+    <string-array name="web_name">
+        <item>Craft For Kids</item>
+        <item>Kids Adventures</item>
+        <item>MindSet</item>
+        <item>Activity Village</item>
+        <item>Skool Nigeria</item>
+        <item>CBC Emea</item>
+    </string-array>
+
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="image_icon">Image Icon</string>
+    <string name="loading">Loading...</string>
+    <string name="cbc_slug">Higer Services... Higher Satisfaction!</string>
+    <string name="intro_image">intro Image</string>
+    <string name="all_bio">all bio right here</string>
+
+    <string name="action_return">Return</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="send">Send</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="about_cbc">What we do is help businesses simplify their processes, perform better and become more productive. We have repeatedly done these since 1984 when we started out as City Business Computers(CBC). After two decades of operating successfully as a technology player, we evolved into a holdings company- CBC EMEA, which now oversees the affairs of its 5 subsidiaries.</string>
+
+</resources>

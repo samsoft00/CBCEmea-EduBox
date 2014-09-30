@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <!-- Background image -->
+    <!--<ImageView-->
+        <!--android:id="@+id/splashScreenImageView"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:src="@drawable/intro_bg"-->
+        <!--android:adjustViewBounds="false"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ScrollView android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingBottom="5.0dip">
+
+            <include layout="@layout/cbc_about_us" />
+
+        </ScrollView>
+            
+            
+      </LinearLayout>
+
+
+</LinearLayout>

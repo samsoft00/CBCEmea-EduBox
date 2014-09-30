@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#f3f3f3">
+    <ImageView
+        android:src="@drawable/suggest"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:scaleType="center"
+        android:background="#d45102"
+        android:contentDescription="@string/app_name" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:background="@android:color/white">
+
+        <EditText
+            android:id="@+id/username"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:hint="App Name"/>
+        <EditText
+            android:id="@+id/password"
+            android:lines="8"
+            android:minLines="6"
+            android:maxLines="10"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:fontFamily="sans-serif"
+            android:hint="App Details"/>
+
+        </LinearLayout>
+</LinearLayout>

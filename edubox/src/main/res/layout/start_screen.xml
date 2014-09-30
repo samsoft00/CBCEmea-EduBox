@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00000000"
+    android:orientation="vertical">
+
+    <!-- Background image -->
+    <ImageView
+        android:id="@+id/splashScreenImageView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/start_screen"
+        android:adjustViewBounds="true"/>
+
+    <ImageView
+        android:id="@+id/eduboxImageView"
+        android:layout_width="200dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="200dip"
+        android:src="@drawable/edu_box_logo"/>
+
+    <!-- Edubox android:paddingTop="250.0dip"-->
+    <LinearLayout
+        android:id="@+id/edubox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="250.0dip"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/edu_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="EDU BOX"
+            android:textStyle="bold"
+            android:textColor="#0034af"
+            android:textSize="85.0dip"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_below="@id/edubox">
+
+        <Button
+            android:id="@+id/con"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTINUE"
+            android:layout_centerInParent="true"
+            android:background="@drawable/new_enter_btn"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:drawableRight="@android:drawable/ic_media_play"
+            android:paddingRight="30dip"
+            android:paddingLeft="20dip"/>
+
+    </LinearLayout>
+
+    <!-- Powering technology -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:padding="10.0dip">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@drawable/powered_by"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:paddingRight="5.0dip"
+            android:text="powered by:"
+            android:textColor="@android:color/white"
+            android:textSize="16.0dip"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:paddingRight="5.0dip"
+            android:text="CBC Emea Ltd"
+            android:textColor="@android:color/white"
+            android:textSize="25.0dip"
+            android:textStyle="bold"
+            android:typeface="sans"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

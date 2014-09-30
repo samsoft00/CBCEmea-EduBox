@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Al-Mukhtarr\workspace\CBCEduBox\edubox\build\intermediates\pre-dexed\debug\support-v4-18.0.0-c9d4196b68cad8e923cd225736f55524136c378f.jar"
+        jar="C:\Program Files\Android\android-sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156"/>
+    <item
+        dex="C:\Users\Al-Mukhtarr\workspace\CBCEduBox\edubox\build\intermediates\pre-dexed\debug\volley-1cd880f61830693d1ac985c2f7efe9b5ad5b39ae.jar"
+        jar="C:\Users\Al-Mukhtarr\workspace\CBCEduBox\edubox\libs\volley.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c"/>
+
+</pre-dex-items>

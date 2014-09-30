@@ -1,0 +1,76 @@
+<resources>
+
+    <style name="Theme.Edubox" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_edubox</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Edubox</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Edubox</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Edubox</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Edubox</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Edubox</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_edubox</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_edubox</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Edubox</item>
+
+        <!--<item name="android:actionBarStyle">@style/MyActionBar</item>-->
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <!--<style name="MyActionBar"-->
+        <!--parent="@android:style/Widget.Holo.ActionBar">-->
+        <!--<item name="android:titleTextStyle">@style/MyActionBarTitleText</item>-->
+    <!--</style>-->
+
+    <!-- ActionBar title text -->
+    <style name="MyActionBarTitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ActionBar.Solid.Edubox" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_edubox</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_edubox</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_edubox</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Edubox</item>
+
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Edubox" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_edubox</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Edubox</item>
+    </style>
+
+    <style name="PopupMenu.Edubox" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_edubox</item>
+    </style>
+
+    <style name="DropDownListView.Edubox" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_edubox</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Edubox" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_edubox</item>
+    </style>
+
+    <style name="DropDownNav.Edubox" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_edubox</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_edubox</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_edubox</item>
+    </style>
+
+    <style name="ProgressBar.Edubox" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_edubox</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Edubox" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_edubox</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Edubox.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Edubox</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Edubox</item>
+    </style>
+
+
+</resources>
