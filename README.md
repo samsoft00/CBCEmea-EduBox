@@ -1,4 +1,4 @@
-CBC Emea Edubox Android Application, (Educational Android Application for Kids)
+CBC Emea Edubox, (Educational Android Application for Kids)
 ==============
 
 CBC Emea Edubox Android Application, (Android Application for Kids)
